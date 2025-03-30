@@ -21,7 +21,7 @@ function App() {
   async function reviewCode() {
     setIsLoading(true);
     try {
-      const response = await axios.post("http://localhost:3000/ai/get-review/", { code });
+      const response = await axios.post("https://ai-code-reviewer-r3pv.onrender.com/ai/get-review/", { code });
       
       // Make sure we're setting a string value to review
       if (typeof response.data === 'object') {
