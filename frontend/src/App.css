@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.editor-textarea {
+    white-space: pre !important;
+    overflow-x: auto !important;
+    word-break: keep-all !important;
+    word-wrap: normal !important;
+  }

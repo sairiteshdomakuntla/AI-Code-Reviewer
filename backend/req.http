@@ -1,0 +1,5 @@
+###
+GET http://localhost:3000/ai/get-review?prompt=What%20is%20Python
+
+###
+GET http://localhost:3000/ai/get-review?prompt=def%20add_numbers(a%2C%20b)%3A%20return%20a%20%2B%20b
